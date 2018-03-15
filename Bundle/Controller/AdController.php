@@ -28,7 +28,7 @@ class AdController extends Controller
 		// now that we have all ads that pass targeting, determine which to display
 		$auction = new Auction($ads, new ByDateBidStrategy());
 		$ad = $auction->execute();
-
+        
         $this->updateImpressionDate($ad);
 
 		return new Response($ad['content']);

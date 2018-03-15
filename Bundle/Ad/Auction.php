@@ -16,12 +16,12 @@ class Auction
 
 	public function execute()
 	{
-		if (!count($this->ads)) {
+        if (!count($this->ads)) {
             return null;
         }
 
-		usort($this->ads, array($this->bidStrategy, 'sort'));
+        usort($this->ads, array($this->bidStrategy, 'sort'));
 
-		return $this->ads[0]; // the first ad is the one we will show
+        return $this->ads[0]; // the first ad is the one we will show
 	}
 }
