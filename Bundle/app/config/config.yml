@@ -1,0 +1,7 @@
+services:
+    twig_filters:
+        class: Bundle\Extension\TwigFilters
+        arguments: [@service_container]
+        public: false
+        tags:
+            - { name: twig.extension }
