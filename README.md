@@ -1,5 +1,7 @@
 # Behind the Scenes: Agorafy Ads
-On some Agorafy pages, there are ads that show up on the right hand side. Ads for companies that offer real estate services and ads of agents that specialize in certain neighborhoods.
+On some Agorafy pages, there are ads that show up on the *right hand* side. Ads for companies that offer real estate services and ads of agents that specialize in certain neighborhoods.
+
+![Agorafy Listing Page Screenshot with Ads](https://dl.dropboxusercontent.com/s/q2o4yf9py8bw8ea/screenshot.png "Agorafy Listing Page Screenshot with Ads")
 
 What decides which ad to show? 
 
